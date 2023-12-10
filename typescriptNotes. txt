@@ -1,0 +1,2 @@
+To download the typescript first we need to download node js in our PC and then go to the Typescript official website , read the docs and download the typescript or you can simply type
+"npm i -g typescript" to install the typescript globally in your PC
