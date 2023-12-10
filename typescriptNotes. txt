@@ -1,2 +1,7 @@
 To download the typescript first we need to download node js in our PC and then go to the Typescript official website , read the docs and download the typescript or you can simply type
 "npm i -g typescript" to install the typescript globally in your PC
+
+LESSON-1
+Typescript is a static typed language which help us to catch the error while developing unlike javascript which catch the error in run time and its difficult to debug.
+
+To run the typescript file we need to open the terminal and go to that file directory where we make our index.ts file and then simply type 'tsc filename' then it will compile our typescript file into javascript file it make the js file in the same directory.
