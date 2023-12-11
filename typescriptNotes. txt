@@ -2,6 +2,21 @@ To download the typescript first we need to download node js in our PC and then 
 "npm i -g typescript" to install the typescript globally in your PC
 
 LESSON-1
+** INSTALL AND RUN TYPESCRIPT
+
 Typescript is a static typed language which help us to catch the error while developing unlike javascript which catch the error in run time and its difficult to debug.
 
 To run the typescript file we need to open the terminal and go to that file directory where we make our index.ts file and then simply type 'tsc filename' then it will compile our typescript file into javascript file it make the js file in the same directory.
+
+LESSON 2
+** TS CONFIGURATION FILE AND PROGRAM TO ADD TWO NUMBERS AND CATCH AND SOLVE THE ERROR IN TS
+Type annotation is the way of declaring variable as a type(number,string and so on).
+Typescript throws the error during the compilation time so we know the error while developing.
+ //@ts-ignore is used to warning in the TS
+
+ CONFIGURATION
+ without TSconfig file ts compiler will create its js file so to get rid of this we use tsconfig file.
+
+ To set the ts config file do the following steps.
+tsc --init   It will create a ts config file
+open tsconfig file click ctrl+f and type "noEmitOnError" and uncomment that code and you're ready to go. But keep that in mind that the index.ts file and the config file must be in a same directory. And run only "tsc" command no need to run "tsc index.ts".
