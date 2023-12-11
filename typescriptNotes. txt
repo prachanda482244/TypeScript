@@ -20,3 +20,36 @@ Typescript throws the error during the compilation time so we know the error whi
  To set the ts config file do the following steps.
 tsc --init   It will create a ts config file
 open tsconfig file click ctrl+f and type "noEmitOnError" and uncomment that code and you're ready to go. But keep that in mind that the index.ts file and the config file must be in a same directory. And run only "tsc" command no need to run "tsc index.ts".
+
+LESSON_3
+** TYPE ANNOTATION
+Type annotation is the way of specifying the variable function parameter and function return value and it helps the TS compiler to enforce type checking and provide type safety during development, as well as what operations could be performed on that variable or value.
+type annotation can be expressed by using the colon after the variable "egVariable:string"
+
+List of types in ts are as follows: -
+
+1. Unknown
+2. Any
+3. Undefined
+4. Void
+5. Null
+6. Number , Number Enum
+7. BigInt
+8. Boolean
+9. String , String Enum
+10. Symbol , Unique Symbol
+11. Object , Array , Tuple
+12. Function
+13. Constructor
+14. Never
+
+Learned about number type and string type in TS
+
+Some of the practice question to do it on your own.
+
+//Practice Set
+// Declare a variable longText of type string and assign it to a long sentence. Extract the first 10 characters from longText and store them in a variable called shortText
+
+// Declare two variable str1 and str2 of type string and assign them different sentences. Compare the two strings and store the results (true or false) in a variable called areEqual.
+
+// Declare variables product and price of type string and number , respectively. Create string using template literals to display the product and price in the format "The product is ${product} is priced at ${price} dollars"
