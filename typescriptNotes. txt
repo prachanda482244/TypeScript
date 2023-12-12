@@ -63,3 +63,29 @@ BigInt literals are written by appending the n suffix to an integer literals
 const num:bigint = 1000n
 big int can be used only in ECMAScript2020 not less than that, so we need to configure our tsconfig file "target:ES2020" then you're ready to go.
 
+
+Type assertion (Type as any)
+Type casting can be done using the as keyword or the angle-bracket syntax.
+//Typecasting eg
+let value: any = "123";
+let numericValue: number = parseInt(value); // Implicit casting
+
+// Explicit casting using 'as' keyword
+let value2: any = "456";
+let numericValue2: number = value2 as number;
+
+LESSON_5
+** ANY VS UNKNOWN IN TS
+ The any type is the most flexible type in Typescript. It essentially turns off all type checking for the variables or expressions, you will see type any when you first write the codd
+
+Use Cases of any
+Working with dynamic data : when dealing with data from dynamic sources like user inputs , network responses , or deserialized JSON objects , the any type can be useful.
+
+Migration from javascript : When migrating an existing javascript code to typescript , using a any type can be a convenient way to quickly annotate variables and functions without immediately specifying their precise types.
+
+Use Cases of Unknown
+The Unknown type is a safer alternative to any because it stills enforces type checking and type safety
+
+        Different between type checking and type safety
+        type checking is a value assign to the variable if the variable is number then it must contain number only whereas type safety is the property of that type if it's number then you can use only number properties.
+Variables of type Unknown can hold values of any type , but you must perfrom type checks or type assertions before using them in specific way.
