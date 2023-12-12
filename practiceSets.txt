@@ -1,0 +1,12 @@
+Practice questions
+//Type annotation practice set
+1. Declare a variable longText of type string and assign it to a long sentence. Extract the first 10 characters from longText and store them in a variable called shortText
+
+2. Declare two variable string1 and string2 of type string and assign them different sentences. Compare the two strings and store the results (true or false) in a variable called areEqual.
+
+3. Declare variables product and price of type string and number , respectively. Create string using template literals to display the product and price in the format "The product is ${product} is priced at ${price} dollars"
+
+//Boolean Practice set
+4. Write a  Typescript function called isEven that takes a number as a parameter and returns true if the number is even else false.
+
+5. Write a typescript function called isDivisibleBy4And8 that takes a number as a parameter and returns true if the number is divisible by both 4 and 8.

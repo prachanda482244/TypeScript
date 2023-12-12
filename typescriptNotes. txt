@@ -53,3 +53,13 @@ Some of the practice question to do it on your own.
 // Declare two variable str1 and str2 of type string and assign them different sentences. Compare the two strings and store the results (true or false) in a variable called areEqual.
 
 // Declare variables product and price of type string and number , respectively. Create string using template literals to display the product and price in the format "The product is ${product} is priced at ${price} dollars"
+
+LESSON_4
+** BOOLEAN AND BIGINT IN TS
+In typescript Boolean type represents a value that can be either true or false. It is one of the basic primitive types in ts
+
+BigInt is a built in type that allows you to work with numbers that are larger than the range supported by the regular number types. In JS we can't read the whole numbers beyond 2 raise to power 53.
+BigInt literals are written by appending the n suffix to an integer literals
+const num:bigint = 1000n
+big int can be used only in ECMAScript2020 not less than that, so we need to configure our tsconfig file "target:ES2020" then you're ready to go.
+
