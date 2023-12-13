@@ -15,3 +15,10 @@ Practice questions
 6. Declare a variable message and initialize it with the value  "Hello , Typescript". Infer the type of message using type inference.
 
 7. Write a function calculateArea that takes the length and width parameter of type number and returns their product the return type of the function using type inference.
+
+//Functions
+8. write a function called isPalindrome that takes a string as a parameter and returns true if the string is a palindrome else false
+
+9. Create a functin called calculateAverage that takes an array of numbers as a parameter and returns the average of those numbers.
+
+10.Write a function called findMaxValue that takes an array of numbers as a parameter and returns the maximum value in the array.

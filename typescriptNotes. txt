@@ -102,3 +102,7 @@ Avoid relying too heavily on type inference when the assigned value is complex o
 Regularly review and refactor your code to ensure the inferred type align with your intentions.
 
 Infer mean to assume.
+
+LESSON_7
+** Functions
+Functions is a typescript is like the same function in js but we need to assign types to its parameter and also assign types for return value as well.
