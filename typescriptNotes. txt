@@ -89,3 +89,16 @@ The Unknown type is a safer alternative to any because it stills enforces type c
         Different between type checking and type safety
         type checking is a value assign to the variable if the variable is number then it must contain number only whereas type safety is the property of that type if it's number then you can use only number properties.
 Variables of type Unknown can hold values of any type , but you must perfrom type checks or type assertions before using them in specific way.
+
+LESSON_6
+** TYPE INFERENCE
+Type inference in TS refers to the ability of the TS compiler to automatically determine and assign types of variable , expressions, adn function return values based on their usage and context in the code.
+Typescript itself assume the type of the variable based on thier first value.
+
+What are the some best practices for using type inference in Typescript
+Use type inference for simple Cases where the assigned value clearly indicates the intended type.
+When in doubt, provide explicit type annotation to make your intention clear.
+Avoid relying too heavily on type inference when the assigned value is complex of ambiguous.
+Regularly review and refactor your code to ensure the inferred type align with your intentions.
+
+Infer mean to assume.

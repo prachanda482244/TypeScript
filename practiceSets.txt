@@ -10,3 +10,8 @@ Practice questions
 4. Write a  Typescript function called isEven that takes a number as a parameter and returns true if the number is even else false.
 
 5. Write a typescript function called isDivisibleBy4And8 that takes a number as a parameter and returns true if the number is divisible by both 4 and 8.
+
+// Type Inference Practice Set
+6. Declare a variable message and initialize it with the value  "Hello , Typescript". Infer the type of message using type inference.
+
+7. Write a function calculateArea that takes the length and width parameter of type number and returns their product the return type of the function using type inference.
