@@ -106,3 +106,9 @@ Infer mean to assume.
 LESSON_7
 ** Functions
 Functions is a typescript is like the same function in js but we need to assign types to its parameter and also assign types for return value as well.
+
+LESSON_8
+** DEFAULT AND OPTIONAL PARAMETER IN FUNCITONS
+Default params in function is a way for define the value default if the user is not passing anything then it will automatically accept the value
+
+Optional params in function is the params must be optional either we can send or not the compiler wont throw error and it use if condition for checking.

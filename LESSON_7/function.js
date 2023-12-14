@@ -1,14 +1,14 @@
-var funSum = function (a, b) {
+"use strict";
+const funSum = (a, b) => {
     return a + b;
 };
 console.log(funSum(2, 4));
-var greeting = function (name) {
-    return "Hello ".concat(name, ", how do you doing");
+const greeting = (name) => {
+    return `Hello ${name}, how do you doing`;
 };
 console.log(greeting("rajesh"));
-var greeAuto = function (name, role) {
-    if (role === void 0) { role = "developer"; }
-    return "Hello ".concat(name, " you're assigned as a ").concat(role);
+const greeAuto = (name, role = "developer") => {
+    return `Hello ${name} you're assigned as a ${role}`;
 };
 console.log(greeAuto('prachanda'));
 console.log(greeAuto('Ranjan', 'programmer'));
