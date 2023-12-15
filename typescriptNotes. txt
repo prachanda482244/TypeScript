@@ -112,3 +112,7 @@ LESSON_8
 Default params in function is a way for define the value default if the user is not passing anything then it will automatically accept the value
 
 Optional params in function is the params must be optional either we can send or not the compiler wont throw error and it use if condition for checking.
+
+LESSON_9
+** ARRAY IN TS
+array in ts in the way similar as array in js but we need to assign the array type.
