@@ -116,3 +116,23 @@ Optional params in function is the params must be optional either we can send or
 LESSON_9
 ** ARRAY IN TS
 array in ts in the way similar as array in js but we need to assign the array type.
+
+LESSON_10
+** ARRAY METHOD AND ITERATION IN TYPESCRIPT
+
+If we use push method and store that in a new variable then it will give us the length of the array not the printed array.
+eg let arr:number = [1,2,3]
+let newArr:number = arr.push(4)
+it will give the length of array
+the iteration method in ts is similar like js
+
+LESSON_11
+*** MAP AND FILTER METHOD IN ARRAY
+
+Map method is used when we want to work with all the items in an array whereas filter method is used to work with some items from an array.
+both map and filter method wont mutate the original array, it makes the copy of old array. so we prefer map method the most.
+
+LESSON_12
+** OBJECT IN TYPESCRIPT
+Its like similar to js but in ts the compiler itself assign the value and we can also declare the type of object entitiy.
+
