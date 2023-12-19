@@ -136,3 +136,15 @@ LESSON_12
 ** OBJECT IN TYPESCRIPT
 Its like similar to js but in ts the compiler itself assign the value and we can also declare the type of object entitiy.
 
+LESSON_13
+** TYPE ALIASES IN TS
+In ts a type aliases is a way to give a name to a specific type or combination of types. It allows you to create a custom name for a type, making it easier to reuse and refer to the same type in different parts of your code. Type alias provide better readability , organization and abstraction of complex types.
+
+To define a type alias , you use a the "type" keyword followed by the alias name and the type definition.
+
+TYPE ALIAS SYNTAX
+type Person={
+        name:string,
+        age:number,
+        class?:string
+}
