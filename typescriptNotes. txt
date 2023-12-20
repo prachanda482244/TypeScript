@@ -148,3 +148,7 @@ type Person={
         age:number,
         class?:string
 }
+
+LESSON_14
+*** CALL SIGNATURE IN TS
+Function call signatures only contain type-level code—that is, types only, no values. That means function call signatures can express parameter types, this types (see “Typing this”), return types, rest types, and optional types, and they cannot express default values (since a default value is a value, not a type).
