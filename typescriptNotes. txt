@@ -158,3 +158,9 @@ LESSON_15
 Enums in typescript are commenly used when you want to represent a set of related values and choose one value from multiple options, Enums provide convenient way to define a set of named value and associate them with specific meaning.
 
 In typescript, when enum constants are not explicitly assigned numeric values, they are automatically assigned incremental numeric values starting from 0. The default numeric value for the first enum constant is 0, and subsequent enum constants receive values incremented by 1.
+
+LESSON_16
+*** TUPLES IN TYPESCRIPT
+Tuples are way more same like array but its has fixed value which is unchangeable.
+like type info = [string,number,boolean] it means the first value must be string second is number and last one is boolean instead of that we can't assign any other values.
+and we used readonly to get rid of adding the extra value which are not necessary.
