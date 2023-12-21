@@ -152,3 +152,9 @@ type Person={
 LESSON_14
 *** CALL SIGNATURE IN TS
 Function call signatures only contain type-level code—that is, types only, no values. That means function call signatures can express parameter types, this types (see “Typing this”), return types, rest types, and optional types, and they cannot express default values (since a default value is a value, not a type).
+
+LESSON_15
+** ENUMS IN TS
+Enums in typescript are commenly used when you want to represent a set of related values and choose one value from multiple options, Enums provide convenient way to define a set of named value and associate them with specific meaning.
+
+In typescript, when enum constants are not explicitly assigned numeric values, they are automatically assigned incremental numeric values starting from 0. The default numeric value for the first enum constant is 0, and subsequent enum constants receive values incremented by 1.
