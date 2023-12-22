@@ -164,3 +164,9 @@ LESSON_16
 Tuples are way more same like array but its has fixed value which is unchangeable.
 like type info = [string,number,boolean] it means the first value must be string second is number and last one is boolean instead of that we can't assign any other values.
 and we used readonly to get rid of adding the extra value which are not necessary.
+
+LESSON_17
+** UNION AND INTERSECTION IN TYPESCRIPT
+
+Union types allow you to specify that a variable can hold values of multiple types. You use the | (pipe) symbol to define a union type.
+In type script  when using a union type, it is essential to ensure that at least one of the types in the union includes all the reuired properties. Failure to do so will result in a type error during compilation.
