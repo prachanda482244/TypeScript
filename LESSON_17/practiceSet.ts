@@ -38,3 +38,24 @@ const formats = (input: string | number | boolean): string | number | boolean =>
 log(formats('prachanda'))
 log(formats(23))
 log(formats(true))
+
+// InterSection
+// You are given two typescript types:User and Mylocation. The user type represents basic user information , while the MyLocation type contains details about the users location. Create a function called createUserProfile that takes a User Object and a Mylocation object as an arguments and print the User's name and the city they are from.
+
+type User = {
+    name: string,
+    age: number
+}
+type MyLocation = {
+    city: string,
+    country: string
+}
+
+const user: User = { name: 'Prachanda ', age: 22 }
+const locations: MyLocation = { city: 'Dhading', country: 'Nepal' }
+const createUserProfile = (user: User, location: MyLocation) => {
+    // return `Welcome ${user.name} and you're from ${location.city}`
+    return { ...user, ...location }
+}
+
+const myCompleteInfo: User & MyLocation = createUserProfile(user, locations)
