@@ -37,3 +37,10 @@ const formats = (input) => {
 log(formats('prachanda'));
 log(formats(23));
 log(formats(true));
+const user = { name: 'Prachanda ', age: 22 };
+const locations = { city: 'Dhading', country: 'Nepal' };
+const createUserProfile = (user, location) => {
+    // return `Welcome ${user.name} and you're from ${location.city}`
+    return { ...user, ...location };
+};
+const myCompleteInfo = createUserProfile(user, locations);
