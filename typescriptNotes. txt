@@ -184,3 +184,7 @@ func1<string>
 func1<number>
 
 the type of the generics only know when we call the function until then it is placeholder or Unknown
+
+LESSON_19
+** MULTIPLE TYPES IN GENERICS
+We can pass more than one placeholder in generics which makes our function to addopt more than two types. Like number and string  , number and booolean
