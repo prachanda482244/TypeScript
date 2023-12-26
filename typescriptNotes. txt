@@ -188,3 +188,8 @@ the type of the generics only know when we call the function until then it is pl
 LESSON_19
 ** MULTIPLE TYPES IN GENERICS
 We can pass more than one placeholder in generics which makes our function to addopt more than two types. Like number and string  , number and booolean
+
+LESSON_20
+** INTERFACE IN TS
+type used in functional components whereas interface is used in object and classes
+
